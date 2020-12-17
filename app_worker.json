@@ -6,11 +6,11 @@
     "env": {
         "BUILDPACK_URL": "https://github.com/icoxfog417/conda-buildpack.git#patched",
         "SLACK_TOKEN": {
-          "description": "A slack token for bot."
+          "description": "xoxb-1530182518736-1547536778801-h1w34wm0Hx702u7VLzCvwTEO"
         },
         "LANG": {
           "description": "Language that karura uses.",
-          "value": "ja or en"
+          "value": "en"
         }
     }
 }
