@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.pipeline import Pipeline
-from sklearn.externals import joblib
+import joblib
 from karura.core.insight import InsightIndex
 from karura.core.dataframe_extension import DataFrameExtension
 from karura.env import get_store_path
