@@ -44,9 +44,9 @@ kintoneEnv = namedtuple("kintoneEnv", ["domain", "login_id", "password"])
 
 
 def get_kintone_env():
-    domain = _get_env("KINTONE_DOMAIN")
-    login_id = _get_env("KINTONE_ID")
-    password = _get_env("KINTONE_PASSWORD")
+    domain = _get_env("nocodeapps.kintone.com")
+    login_id = _get_env("harishsg@nocodeapps.io")
+    password = _get_env("harish@123")
     env = kintoneEnv(domain, login_id, password)
 
     if env.domain == "" or env.login_id == "" or env.password == "":
