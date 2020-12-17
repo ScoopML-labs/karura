@@ -10,7 +10,8 @@ class EnvironmentalSettingException(Exception):
 
 
 def get_slack_token():
-    return _get_env("SLACK_TOKEN")
+    slack = os.environ.get("SLACK_TOKEN", "")
+    return slack
 
 
 def get_lang():
