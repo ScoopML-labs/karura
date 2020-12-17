@@ -1,4 +1,4 @@
-pykintone>=0.3.6
+pykintone>=0.3.10
 slackbot>=0.4.1
 tornado>=4.4.2
 cryptography>=2.0
