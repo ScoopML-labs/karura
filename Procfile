@@ -1,1 +1,1 @@
-web: python karura/bot/run.py
+worker: python karura/bot/run.py
