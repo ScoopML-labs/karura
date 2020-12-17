@@ -6,7 +6,7 @@ from karura.core.dataframe_extension import FType
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.externals import joblib
+import joblib
 
 
 class NumericalScalingInsight(Insight):
