@@ -43,9 +43,9 @@ def get_store_path():
 kintoneEnv = namedtuple("kintoneEnv", ["domain", "login_id", "password"])
 
 def get_kintone_env():
-    domain = _get_env("KINTONE_DOMAIN")
-    login_id = _get_env("KINTONE_ID")
-    password = _get_env("KINTONE_PASSWORD")
+    domain = os.environ.get("KINTONE_DOMAIN")
+    login_id = os.environ.get("KINTONE_ID")
+    password = os.environ.get("KINTONE_PASSWORD")
     env = kintoneEnv(domain, login_id, password)
 
     if env.domain == "" or env.login_id == "" or env.password == "":
