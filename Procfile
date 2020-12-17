@@ -1,1 +1,1 @@
-web: python /opt/karura/bot/run.py
+web: python karura/bot/run.py
