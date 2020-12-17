@@ -42,6 +42,18 @@ def get_store_path():
 
 kintoneEnv = namedtuple("kintoneEnv", ["domain", "login_id", "password"])
 
+def get_kintone_env():
+    domain = _get_env("KINTONE_DOMAIN")
+    login_id = _get_env("KINTONE_ID")
+    password = _get_env("KINTONE_PASSWORD")
+    env = kintoneEnv(domain, login_id, password)
+
+    if env.domain == "" or env.login_id == "" or env.password == "":
+        raise EnvironmentalSettingException("Can not get the information to Access the kintone")
+
+    return env
+
+
 
 def get_kintone_env_by_domain(domain):
     from karura.database_api import DatabaseAPI
