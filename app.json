@@ -17,7 +17,7 @@
     },
     "LANG": {
       "description": "language that is used in karura.",
-      "value": "ja"        
+      "value": "en"        
     }
   },
   "image": "icoxfog417/karura-server"
