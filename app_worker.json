@@ -11,6 +11,18 @@
         "LANG": {
           "description": "Language that karura uses.",
           "value": "en"
-        }
+        },
+       "KINTONE_DOMAIN": {
+      "description": "language that is used in karura.",
+      "value": "nocodeapps.kintone.com"        
+    },
+      "KINTONE_ID": {
+      "description": "language that is used in karura.",
+      "value": "harishsg@nocodeapps.io"        
+    },
+    "KINTONE_PASSWORD": {
+      "description": "language that is used in karura.",
+      "value": "harish@123"        
+    }
     }
 }
